@@ -1,0 +1,34 @@
+html, body {height: auto !important;}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.formSpan {display: block; margin-bottom: 1.25em;}
+.float_left {float: left;}
+.float_right {float: right;}
+/* Footer Buttons */
+.fwftr-button, .fwftr-button:link, .fwftr-button:active, .fwftr-button:visited {white-space: nowrap !important;color: #fff !important;font-weight: bold !important;display: -moz-inline-box; /* FF2 version of inline-block... */ display: inline-block !important;width: auto !important;font-family: helvetica, arial !important;margin: 0 0 0 2px !important;text-decoration: none !important;background-color: #000 !important;border: 2px solid #424242 !important;cursor: pointer;-ms-filter: alpha(opacity = 55);filter: alpha(opacity = 55);zoom: 1;opacity: 0.55 !important;-webkit-border-radius: 3px;-moz-border-radius: 3px;vertical-align: middle;}
+.fwftr-button:hover {color: #fff !important;-ms-filter: alpha(opacity = 65) filter: alpha(opacity = 65);opacity: .65 !important;}
+.fwftr-button span {display: block !important;}
+.fwftr-input-big, input.fwftr-button-big {font-size: 13px !important;padding: 3px 9px 3px !important;}
+.fwftr-button-big, .fwftr-button-big:link, .fwftr-button-big:active, .fwftr-button-big:visited {font-size: 13px !important;line-height: 14px !important;padding: 4px 11px 4px !important;vertical-align: middle;}
+a.fwftr-remove, a.fwftr-remove:link, a.fwftr-remove:active, a.fwftr-remove:visited {background-color: #e00 !important;color: #fff !important;border-color: #900 !important;opacity: 0.9 !important;filter: alpha(opacity='90') !important;vertical-align: middle;}
+/* Main dropdown functionality */
+#fw-mainnavwrap li:hover, #fw-mainnavwrap .sfhover {position: relative;}
+#fw-mainnavwrap li ul {position: absolute;left: -999em;line-height: 1;padding: 0;z-index: 10;margin: 0;display: block;}
+#fw-mainnavwrap li:hover ul ul, #fw-mainnavwrap li.sfhover ul ul {left: -999em;}
+#fw-mainnavwrap li:hover ul, #fw-mainnavwrap li li:hover ul, #fw-mainnavwrap li.sfhover ul, #fw-mainnavwrap li li.sfhover ul {left: 0;}
+#fw-mainnavwrap .fw-nav-level-0 ul li {display: block;clear: both;white-space: nowrap;padding: 0 !important;width: 100%; margin: 0;}
+#fw-mainnavwrap .fw-nav-level-1 {opacity: .9;}
+/* Default dropdown styles */
+#fw-mainnavwrap .fw-nav-level-1, #fw-mainnavwrap .fw-nav-level-2 {background-color: #000;border: 2px solid #000;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+#fw-mainnavwrap .fw-nav-level-0 ul a {display: block;padding: 5px 10px;width: auto;}
+.navtype-Left #fw-mainnavwrap li:hover > ul {left: 100%;top: 0;}
+.navtype-Left #fw-mainnavwrap .sfhover .fw-nav-level-1 {left: 100%;top: 0;}
+.navtype-Right #fw-mainnavwrap li:hover > ul {left: -100%;top: 0;}
+.navtype-Right #fw-mainnavwrap .sfhover ul {left: -90%;top: 0;}
+.navtype-Top li:hover .fw-nav-level-1, .navtype-Top .sfhover .fw-nav-level-1 {top: 100%;}
+.navtype-Top #fw-mainnavwrap li:hover > .fw-nav-level-2 {top: -2px;left: 100%;}
+/* IE Bloat */
+.navtype-Top #fw-mainnavwrap #fw-nav-menu .sfhover .sfhover ul, .navtype-Left #fw-mainnavwrap #fw-nav-menu .sfhover .sfhover ul {left: 100%; top: -2px;}
+.navtype-Right #fw-mainnavwrap #fw-nav-menu .sfhover ul ul {left: -999em;}
+.navtype-Right #fw-mainnavwrap #fw-nav-menu .sfhover .sfhover ul {left: -100%;top: -2px;}
+* html #fw-mainnavwrap .fw-nav-level-0 ul li {float: none;width: auto;line-height: 5px;}
+*:first-child+html #fw-mainnavwrap .fw-nav-level-0 ul li {float: none;width: auto;}
