@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" role="main">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ViewLab Webpage Tester</title>
+  <style>
+    /* Base reset and body styling */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      min-height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(145deg, #0a0f2c, #1a1855);
+      background-size: cover;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      backdrop-filter: blur(10px);
+      color: white;
+    }
+
+    /* Container takes full width and centers content */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      gap: 30px;
+    }
+
+    /* Liquid glass card styling */
+    .controls, .smartphone {
+      background: rgba(255, 255, 255, 0.08);
+      border: 0px solid rgba(255, 255, 255, 0.8);
+
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+
+    /* Control panel */
+.controls {
+  padding: 30px;
+  width: 350px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 11px;
+  border: 1px solid #444;
+}
+
+    .controls label {
+      font-weight: bold;
+      font-size: 14px;
+      color: #e0e0ff;
+    }
+	
+	
+
+.controls select,
+.controls input[type="text"] {
+  background: rgba(255, 255, 255, 0.7);
+  color: #000; /* ✅ Dark grey font for dropdown and input */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 7px;
+  padding: 8px;
+  font-size: 14px;
+  backdrop-filter: blur(10px);
+}
+
+    .controls input::placeholder {
+      color: #000;
+    }
+
+    .controls button {
+      background: linear-gradient(135deg, #5a48d3, #7c6eff);
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 7px;
+      cursor: pointer;
+      transition:background 0.5s ease;
+    }
+
+    .controls button:hover {
+      background: linear-gradient(135deg, #7869ff, #a09bff);transition:background 0.5s ease;
+    }
+
+    /* Smartphone styling */
+    .smartphone {border-radius:11px;
+      width: 360px;
+      height: 640px;
+      padding: 0;
+      position: relative;
+      transition: width 0.5s ease, height 0.5s ease;
+    }
+
+
+
+    /* Smartphone screen (iframe) */
+    .smartphone .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+
+    iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;border-radius:11px
+    }
+	
+.file-upload {
+  display: inline-block;
+  background: linear-gradient(135deg, #5a48d3, #7c6eff);
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+
+.file-upload:hover {
+  background: linear-gradient(135deg, #7869ff, #a09bff);
+}	
+
+#menu{backdrop-filter:blur(10px);transition:0.4s;background-color:transparent;position:fixed;text-shadow:0 0 0 rgba(0,0,0,0.3);padding:3px 10px 3px 10px;letter-spacing:1px;font-size:15px;color:#fff;border-radius:5px;border:2px solid silver;top:5px;right:5px;cursor:pointer;font-weight:400;z-index:1}#menu:hover{background-color:rgba(255,255,255,0.3)!important;transition:0.4s;color:#f9f9f9!important}
+  </style>
+</head>
+<body>
+<span id="menu" onclick='location.href="https://www.ssuiteoffice.com/categories/webapps.htm"'>Menu</span>
+
+  <div class="container">
+    <div class="controls">
+      <label for="screenSize">Select Screen Size:</label>
+      <select id="screenSize">
+        <option value="360x640">360 x 640 (Small Mobile)</option>
+		<option value="1368x768">1368 x 768 (HD Laptop Fullscreen)</option>
+		<option value="1368x625">1368 x 625 (HD Laptop Browser Visible)</option>
+		<option value="1024x768">1024 x 768 (17" Screen Fullscreen)</option>
+		<option value="1024x625">1024 x 625 (17" Screen Browser Visible)</option>
+        <option value="375x667">375 x 667 (iPhone 6/7/8)</option>
+        <option value="414x896">414 x 896 (iPhone XR/11/Plus)</option>
+        <option value="390x844">390 x 844 (iPhone 12/13/14)</option>
+        <option value="412x915">412 x 915 (Pixel 6)</option>
+        <option value="428x926">428 x 926 (iPhone 14 Pro Max)</option>
+        <option value="360x800">360 x 800 (Galaxy A51)</option>
+        <option value="393x873">393 x 873 (Pixel 5)</option>
+        <option value="375x812">375 x 812 (iPhone X/XS)</option>
+        <option value="768x1024">768 x 1024 (Tablet Portrait)</option>
+        <option value="800x1280">800 x 1280 (Tablet Landscape)</option>
+        <option value="834x1112">834 x 1112 (iPad Pro 10.5")</option>
+        <option value="1024x1366">1024 x 1366 (iPad Pro 12.9")</option>
+        <option value="320x568">320 x 568 (iPhone SE)</option>
+        <option value="600x1024">600 x 1024 (Small Tablet)</option>
+        <option value="411x823">411 x 823 (Pixel 2 XL)</option>
+        <option value="360x780">360 x 780 (Galaxy S20)</option>
+        <option value="384x854">384 x 854 (Legacy Android)</option>
+        <option value="480x800">480 x 800 (Small Android)</option>
+        <option value="540x960">540 x 960 (Mid-range Android)</option>
+      </select>
+
+      <label for="customResolution">Custom Resolution: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Width x Height</label>
+      <input type="text" id="customResolution" placeholder="360x640" />
+      <button onclick="applyCustomResolution()">Resize</button>
+
+      <label for="urlInput">Enter URL:</label>
+	  
+      <input type="text" id="urlInput" placeholder="https://homepage.ssuiteoffice.com" />
+<div style="display: flex; gap: 10px; margin-top: 10px;">	  
+<button onclick="navigate()"> &nbsp; &nbsp; Go... &nbsp; &nbsp; </button>
+<label class="file-upload"> &nbsp; &nbsp; Load Local HTML File &nbsp; &nbsp; <input type="file" id="localFile" accept=".html,.htm" hidden /></label>
+</div>
+
+      <label>Rotate Screen:</label>
+      <button onclick="rotate()">Portrait / Landscape</button>
+	  
+	        <label>Clear Screen or Contents:</label>
+<div style="display: flex; gap: 10px; margin-top: 10px;">
+  <button onclick="window.location.reload(false)">Refresh Webpage</button>
+  <button onclick="const iframeTest = document.getElementById('phoneIframe');iframeTest.src = iframeTest.src;">Refresh Contents</button>
+</div>
+
+    </div>
+
+<div class="smartphone" id="smartphone">
+  <div class="content">
+    <iframe
+      id="phoneIframe"
+      src="https://homepage.ssuiteoffice.com/"
+      width="100%"
+      height="100%"
+      frameborder="0"
+      allowfullscreen
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+      sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation allow-downloads allow-presentation"
+      referrerpolicy="no-referrer-when-downgrade"
+      loading="eager"
+    ></iframe>
+  </div>
+</div>
+  </div>
+
+  <script>
+    const screenSizeSelect = document.getElementById("screenSize");
+    const smartphone = document.getElementById("smartphone");
+    const customInput = document.getElementById("customResolution");
+	const customURL = document.getElementById("urlInput");
+	
+	
+	
+	
+	
+  customURL.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      navigate();
+    }
+  });	
+	 
+  customInput.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      applyCustomResolution();
+    }
+  });
+
+    // Initial default size
+    let currentWidth = 360;
+    let currentHeight = 640;
+    smartphone.style.width = currentWidth + "px";
+    smartphone.style.height = currentHeight + "px";
+
+    screenSizeSelect.addEventListener("change", () => {
+      const [width, height] = screenSizeSelect.value.split("x");
+      currentWidth = parseInt(width);
+      currentHeight = parseInt(height);
+      updateSmartphoneSize();
+    });
+
+    function applyCustomResolution() {
+      const value = customInput.value.trim();
+      const match = value.match(/^(\d+)\s*x\s*(\d+)$/i);
+      if (match) {
+        currentWidth = parseInt(match[1]);
+        currentHeight = parseInt(match[2]);
+        updateSmartphoneSize();
+      } else {
+        alert("Please enter resolution in the format: width x height (e.g., 375x667)");
+      }
+    }
+
+    function rotate() {
+      [currentWidth, currentHeight] = [currentHeight, currentWidth];
+      updateSmartphoneSize();
+    }
+
+function updateSmartphoneSize() {
+  smartphone.style.width = currentWidth + "px";
+  smartphone.style.height = currentHeight + "px";
+  customInput.value = `${currentWidth}x${currentHeight}`;
+
+  const iframe = document.getElementById("phoneIframe");
+  iframe.style.width = currentWidth + "px";
+  iframe.style.height = currentHeight + "px";
+}
+
+    function navigate() {
+      const urlInput = document.getElementById("urlInput").value.trim();
+      if (urlInput) {
+        const formattedUrl = urlInput.startsWith("http") ? urlInput : `https://${urlInput}`;
+        document.getElementById("phoneIframe").src = formattedUrl;
+      }
+    }
+	
+	document.getElementById("localFile").addEventListener("change", function(event) {
+  const file = event.target.files[0];
+  if (file && file.type === "text/html") {
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      const blob = new Blob([e.target.result], { type: "text/html" });
+      const url = URL.createObjectURL(blob);
+      document.getElementById("phoneIframe").src = url;
+    };
+    reader.readAsText(file);
+  } else {
+    alert("Please select a valid HTML file.");
+  }
+});
+
+
+  </script>
+
+</body>
+</html>
