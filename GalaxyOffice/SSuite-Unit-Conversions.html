@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Free Online Unit Converter - SSuite Office Software</title>
+<meta name="keywords" content="free,office suites,freeware,free downloads,free software,software,online office software,online word processor,online text editor,online spreadsheet,my money,business software,invoice,personal finance,database,safe,trusted,green energy software,No Java">
+<meta name="description" content="This free tool is very intuitive to convert all temperature, weights and measures. Online unit converter for unit conversions between most of the units you can think of. Experience and access our free online unit converter that has no login or account registration necessary. Just the way you like it! Forget the Cloud, go direct. It has modern visual design with easy interaction and true HTML5 compatibility. Free downloads with no strings attached. No Java or DotNet required.">
+<link rel="canonical" href="https://www.ssuiteoffice.com/GalaxyOffice/SSuite-Unit-Conversions.html"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:site_name" content="SSuite Office Software">
+<meta property="og:url" content="https://www.ssuiteoffice.com/GalaxyOffice/SSuite-Unit-Conversions.html" />
+<meta property="og:title" content="Best free online unit converter with no download necessary">
+<meta property="og:image" content="https://www.ssuiteoffice.com/images/logos/SSuiteHi-ResLogo1.png">
+<meta property="og:image:alt" content="This free tool is very intuitive to convert all temperature, weights and measures. Online unit converter for unit conversions between most of the units you can think of.Only from SSuite Office Software.">
+<meta property="og:type" content="website" />
+<meta property="og:description" content="This free tool is very intuitive to convert all temperature, weights and measures. Online unit converter for unit conversions between most of the units you can think of. We provide safe and trusted free software and office suites for daily use." />
+<style type="text/css">
+body, html {margin:0;padding:0;}
+input[type=number] {font-size:17px;height:30px;letter-spacing:1px;}
+p {font-size:17px;letter-spacing:1px;}
+label {font-size:17px;letter-spacing:1px;}
+h2 {letter-spacing:1px;}
+.column {float: left;width: 20%;padding: 20px;height: 30px;}
+.row:after {content: "";display: table;clear: both;}
+@media (max-width: 600px) {.column {width: 100%;} input[type=number] {float:right;margin-right:30px;} #menu {padding-right:0px !important;padding-top:3px !important;} }
+</STYLE>
+</head>
+<body>
+<div class="row">
+<div class="w3-container w3-green" style="background-color:steelblue;color:white;padding-left:15px;margin:auto;max-width:1000px;height:40px;">
+  <h2 style="position:relative;top:6px;">Weight Converter<span id="menu" style="float:right;font-size:17px;padding-top:3px;padding-right:20px;"><a href="https://www.ssuiteoffice.com/SSuiteWebOffice.htm">Main Menu</a></SPAN></h2>
+</div>
+<div class="w3-row-padding" style="margin:auto;max-width:1000px;">
+  <p style="margin-left:8px;margin-bottom:4px;font-size:17px;">Type a value in any of the fields to convert between weight measurements:</p>
+  <div class="w3-half w3-margin-top">
+  <div class="row">
+  <div class="column">
+    <label>Pounds</label>
+    <input id="inputPounds" class="w3-input w3-border" type="number" placeholder="Pounds" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+  </div>
+  <div class="column">
+    <label>Kilograms</label>
+    <input id="inputKilograms" class="w3-input w3-border" type="number" placeholder="Kilograms" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+  </div>
+  <div class="column">
+    <label>Ounces</label>
+    <input id="inputOunces" class="w3-input w3-border" type="number" placeholder="Ounces" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+  </div>
+  <div class="column">   
+    <label>Grams</label>
+    <input id="inputGrams" class="w3-input w3-border" type="number" placeholder="Grams" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+  </div>
+  <div class="column">
+    <label>Stones</label>
+    <input id="inputStones" class="w3-input w3-border" type="number" placeholder="Stones" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+	</div>
+ </div></div>
+</div>
+<BR><BR>
+<div class="w3-container w3-green" style="background-color:steelblue;color:white;padding-left:15px;margin:auto;max-width:1000px;height:40px;">
+  <h2 style="position:relative;top:6px;">Temperature Converter</h2>
+</div>
+<div class="w3-row-padding" style="margin:auto;max-width:1000px;">
+  <p style="margin-left:8px;margin-bottom:4px;">Type a value in any of the fields to convert between temperature measurements:</p>
+  <div class="w3-half w3-margin-top">
+  <div class="row">
+  <div class="column">
+    <label>Fahrenheit</label>
+    <input id="inputFahrenheit" class="w3-input w3-border" type="number" min="-459.66999999999996" placeholder="Fahrenheit" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+  </div>
+  <div class="column">
+    <label>Celsius</label>
+    <input id="inputCelsius" class="w3-input w3-border" type="number" min="-273.15" placeholder="Celsius" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+  </div>
+  <div class="column">
+    <label>Kelvin</label>
+    <input id="inputKelvin" class="w3-input w3-border" type="number" min="0" placeholder="Kelvin" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+  </div>	
+  </div></div>
+</div>
+<BR><BR>
+<div class="w3-container w3-green" style="background-color:steelblue;color:white;padding-left:15px;margin:auto;max-width:1000px;height:40px;">
+  <h2 style="position:relative;top:6px;">Length Converter</h2>
+</div>
+<div class="w3-row-padding" style="margin:auto;max-width:1000px;">
+  <p style="margin-left:8px;margin-bottom:4px;">Type a value in any of the fields to convert between Length measurements:</p>
+  <div class="w3-half w3-margin-top">
+  <div class="row">
+    <div class="column">
+    <label>Feet</label>
+    <input id="inputFeet" class="w3-input w3-border" type="number" placeholder="Feet" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+    </div>
+    <div class="column">
+    <label>Meters</label>
+    <input id="inputMeters" class="w3-input w3-border" type="number" placeholder="Meters" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+    </div>
+    <div class="column">
+    <label>Inches</label>
+    <input id="inputInches" class="w3-input w3-border" type="number" placeholder="Inches" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+    </div>
+    <div class="column">
+    <label>cm</label>
+    <input id="inputcm" class="w3-input w3-border" type="number" placeholder="cm" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+    </div>
+    <div class="column">
+    <label>Yards</label>
+    <input id="inputYards" class="w3-input w3-border" type="number" placeholder="Yards" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+    </div>
+    <div class="column">
+    <label>Kilometers</label>
+    <input id="inputKilometers" class="w3-input w3-border" type="number" placeholder="Kilometers" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+    </div>
+	<div class="column">
+    <label>Miles</label>
+    <input id="inputMiles" class="w3-input w3-border" type="number" placeholder="Miles" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+	</div>
+	</div>
+  </div>
+</div>
+<BR><BR>
+<div class="w3-container w3-green" style="background-color:steelblue;color:white;padding-left:15px;margin:auto;max-width:1000px;height:40px;">
+  <h2 style="position:relative;top:6px;">Speed Converter</h2>
+</div>
+<div class="w3-row-padding" style="margin:auto;max-width:1000px;padding-bottom:250px;">
+  <p style="margin-left:8px;margin-bottom:4px;">Type a value in any of the fields to convert between speed measurements:</p>
+  <div class="w3-half w3-margin-top">
+  <div class="row">
+    <div class="column">
+    <label>MPH</label>
+    <input id="inputMPH" class="w3-input w3-border" type="number" placeholder="MPH" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+    </div>
+	<div class="column">
+    <label>KPH</label>
+    <input id="inputKPH" class="w3-input w3-border" type="number" placeholder="KPH" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+    </div>
+    <div class="column">
+    <label>Knots</label>
+    <input id="inputKnots" class="w3-input w3-border" type="number" placeholder="Knots" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+    </div>
+    <div class="column">
+    <label>Mach</label>
+    <input id="inputMach" class="w3-input w3-border" type="number" placeholder="Mach" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+	</div>
+	</div>
+  </div>
+</div>
+<script>
+function weightConverter(source,valNum) {
+  valNum = parseFloat(valNum);
+  var inputPounds = document.getElementById("inputPounds");
+  var inputKilograms = document.getElementById("inputKilograms");
+  var inputOunces = document.getElementById("inputOunces");
+  var inputGrams = document.getElementById("inputGrams");
+  var inputStones = document.getElementById("inputStones");
+  if (source=="inputPounds") {
+    inputKilograms.value=(valNum/2.2046).toFixed(2);
+    inputOunces.value=(valNum*16).toFixed(2);
+    inputGrams.value=(valNum/0.0022046).toFixed();
+    inputStones.value=(valNum*0.071429).toFixed(3);
+  }
+  if (source=="inputKilograms") {
+    inputPounds.value=(valNum*2.2046).toFixed(2);
+    inputOunces.value=(valNum*35.274).toFixed(2);
+    inputGrams.value=(valNum*1000).toFixed();
+    inputStones.value=(valNum*0.1574).toFixed(3);
+  }
+  if (source=="inputOunces") {
+    inputPounds.value=(valNum*0.062500).toFixed(4);
+    inputKilograms.value=(valNum/35.274).toFixed(4);
+    inputGrams.value=(valNum/0.035274).toFixed(1);
+    inputStones.value=(valNum*0.0044643).toFixed(4);
+  }
+  if (source=="inputGrams") {
+    inputPounds.value=(valNum*0.0022046).toFixed(4);
+    inputKilograms.value=(valNum/1000).toFixed(4);
+    inputOunces.value=(valNum*0.035274).toFixed(3);
+    inputStones.value=(valNum*0.00015747).toFixed(5);
+  }
+  if (source=="inputStones") {
+    inputPounds.value=(valNum*14).toFixed(1);
+    inputKilograms.value=(valNum/0.15747).toFixed(1);
+    inputOunces.value=(valNum*224).toFixed();
+    inputGrams.value=(valNum/0.00015747).toFixed();
+  }
+
+}
+
+function temperatureConverter(source,valNum) {
+  valNum = parseFloat(valNum);
+  var inputFahrenheit = document.getElementById("inputFahrenheit");
+  var inputCelsius = document.getElementById("inputCelsius");
+  var inputKelvin = document.getElementById("inputKelvin");
+  if (source=="inputFahrenheit") {
+    inputCelsius.value=((valNum-32)/1.8).toFixed(2);
+    inputKelvin.value=(((valNum-32)/1.8)+273.15).toFixed(2);
+  }
+  if (source=="inputCelsius") {
+    inputFahrenheit.value=((valNum*1.8)+32).toFixed(2);
+    inputKelvin.value=((valNum)+273.15).toFixed(2);
+  }
+  if (source=="inputKelvin") {
+    inputFahrenheit.value=(((valNum-273.15)*1.8)+32).toFixed(2);
+    inputCelsius.value=((valNum)-273.15).toFixed(2);
+  }
+}
+
+function lengthConverter(source,valNum) {
+  valNum = parseFloat(valNum);
+  var inputFeet = document.getElementById("inputFeet");
+  var inputMeters = document.getElementById("inputMeters");
+  var inputInches = document.getElementById("inputInches");
+  var inputcm = document.getElementById("inputcm");
+  var inputYards = document.getElementById("inputYards");
+  var inputKilometers = document.getElementById("inputKilometers");
+  var inputMiles = document.getElementById("inputMiles");
+  if (source=="inputFeet") {
+    inputMeters.value=(valNum/3.2808).toFixed(2);
+    inputInches.value=(valNum*12).toFixed(2);
+    inputcm.value=(valNum/0.032808).toFixed();
+    inputYards.value=(valNum*0.33333).toFixed(2);
+    inputKilometers.value=(valNum/3280.8).toFixed(5);    
+    inputMiles.value=(valNum*0.00018939).toFixed(5);
+  }
+  if (source=="inputMeters") {
+    inputFeet.value=(valNum*3.2808).toFixed(2);
+    inputInches.value=(valNum*39.370).toFixed(2);
+    inputcm.value=(valNum/0.01).toFixed();
+    inputYards.value=(valNum*1.0936).toFixed(2);
+    inputKilometers.value=(valNum/1000).toFixed(5);    
+    inputMiles.value=(valNum*0.00062137).toFixed(5);
+  }
+  if (source=="inputInches") {
+    inputFeet.value=(valNum*0.083333).toFixed(3);
+    inputMeters.value=(valNum/39.370).toFixed(3);
+    inputcm.value=(valNum/0.39370).toFixed(2);
+    inputYards.value=(valNum*0.027778).toFixed(3);    
+    inputKilometers.value=(valNum/39370).toFixed(6);
+    inputMiles.value=(valNum*0.000015783).toFixed(6);
+  }
+  if (source=="inputcm") {
+    inputFeet.value=(valNum*0.032808).toFixed(3);
+    inputMeters.value=(valNum/100).toFixed(3);
+    inputInches.value=(valNum*0.39370).toFixed(2);
+    inputYards.value=(valNum*0.010936).toFixed(3);    
+    inputKilometers.value=(valNum/100000).toFixed(6);
+    inputMiles.value=(valNum*0.0000062137).toFixed(6);
+  }
+  if (source=="inputYards") {
+    inputFeet.value=(valNum*3).toFixed();
+    inputMeters.value=(valNum/1.0936).toFixed(2);
+    inputInches.value=(valNum*36).toFixed();
+    inputcm.value=(valNum/0.010936).toFixed();
+    inputKilometers.value=(valNum/1093.6).toFixed(5);
+    inputMiles.value=(valNum*0.00056818).toFixed(5);
+  }
+  if (source=="inputKilometers") {
+    inputFeet.value=(valNum*3280.8).toFixed();
+    inputMeters.value=(valNum*1000).toFixed();
+    inputInches.value=(valNum*39370).toFixed();
+    inputcm.value=(valNum*100000).toFixed();
+    inputYards.value=(valNum*1093.6).toFixed();
+    inputMiles.value=(valNum*0.62137).toFixed(2);    
+  }
+  if (source=="inputMiles") {
+    inputFeet.value=(valNum*5280).toFixed();
+    inputMeters.value=(valNum/0.00062137).toFixed();
+    inputInches.value=(valNum*63360).toFixed();
+    inputcm.value=(valNum/0.0000062137).toFixed();
+    inputYards.value=(valNum*1760).toFixed();
+    inputKilometers.value=(valNum/0.62137).toFixed(2);    
+  }
+}
+
+function speedConverter(source,valNum) {
+  valNum = parseFloat(valNum);
+  var inputMPH = document.getElementById("inputMPH");
+  var inputKPH = document.getElementById("inputKPH");
+  var inputKnots = document.getElementById("inputKnots");
+  var inputMach = document.getElementById("inputMach");
+  if (source=="inputMPH") {
+    inputKPH.value=(valNum*1.609344).toFixed(2);
+    inputKnots.value=(valNum/1.150779).toFixed(2);
+    inputMach.value=(valNum/761.207).toFixed(4);
+  }
+  if (source=="inputKPH") {
+    inputMPH.value=(valNum/1.609344).toFixed(2);
+    inputKnots.value=(valNum/1.852).toFixed(2);
+    inputMach.value=(valNum/1225.044).toFixed(5);
+  }
+  if (source=="inputKnots") {
+    inputMPH.value=(valNum*1.150779).toFixed(2);
+    inputKPH.value=(valNum*1.852).toFixed(2);
+    inputMach.value=(valNum/661.4708).toFixed(4);
+  }
+  if (source=="inputMach") {
+    inputMPH.value=(valNum*761.207).toFixed();
+    inputKPH.value=(valNum*1225.044).toFixed();
+    inputKnots.value=(valNum*661.4708).toFixed();
+  }
+}
+</script>
+
+</body>
+</html>
