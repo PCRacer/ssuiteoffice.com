@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News From The Edge - Insightful Podcast on Current Events</title>
+	
+	<link rel="preload" href="../images/resources/podcastlight.jpg" as="image" type="image/jpeg">
+	<link rel="preload" href="../images/resources/podcastdark.jpg" as="image" type="image/jpeg">
+	
+	
+	<link rel="preload" href="https://blog.ssuiteoffice.com/images/mainheaders/getridofprintersandgodigital.jpg" as="image" type="image/jpeg">
+	<link rel="preload" href="https://blog.ssuiteoffice.com/images/ssuiteoffice/ssuitemainposter.jpg" as="image" type="image/jpeg">
+	<link rel="preload" href="https://blog.ssuiteoffice.com/images/ssuiteoffice/netsurferbrowser.jpg" as="image" type="image/jpeg">
+	<link rel="preload" href="https://blog.ssuiteoffice.com/images/mainheaders/ssuiteonlineoffice.jpg" as="image" type="image/jpeg">
+	
+	<meta name="description" content="Tune in to 'News From The Edge', the podcast that brings you insightful discussions on current events, tech news, tips and tricks, and cultural trends from SSuite Office Software. Join us for expert interviews and analysis.">
+    <meta name="keywords" content="news podcast, current events, political commentary, cultural trends, expert interviews, insightful discussions, tech news, tips and tricks, ssuite office, analysis">
+    
+	<link rel="canonical" href="https://www.ssuiteoffice.com/resources/news-from-the-edge-podcast.htm">
+	
+	
+	<meta name="twitter:site" content="@SSuiteSoftware">
+	<meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="News From The Edge - Insightful Podcast on Current Events">
+    <meta name="twitter:description" content="Join 'News From The Edge' for engaging discussions on current events, tech news, and culture.">
+    <meta name="twitter:image" content="https://www.ssuiteoffice.com/images/resources/podcastheader.jpg">
+	
+	<meta property="og:title" content="News From The Edge - Insightful Podcast on Current Events">
+    <meta property="og:description" content="Tune in to 'News From The Edge', where we explore current events and cultural trends through expert interviews and insightful discussions.">
+    <meta property="og:image" content="https://www.ssuiteoffice.com/images/resources/podcastheader.jpg">
+    <meta property="og:url" content="https://www.ssuiteoffice.com/resources/news-from-the-edge-podcast.htm">
+    <meta property="og:type" content="website">
+	
+	
+    <style type="text/css">
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        transition: background 0.7s ease-in-out;
+    }
+
+    body {
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        background-image: url('../images/resources/podcastlight.jpg');
+        background-size: 100% 100%; /* Ensure the image covers the whole screen */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent repetition */
+		background-attachment: fixed; /* Keep the background fixed */
+        color: #333;
+        padding: 20px;
+        height: 100vh; /* Full height */
+		margin-top:140px
+        
+    }
+
+    header {
+        position: fixed; /* Fix the header at the top */
+        top: 0; /* Position at the top */
+        left: 0; /* Align to the left */
+        right: 0; /* Align to the right */
+        background: rgba(36, 67, 92, 0.7);
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        backdrop-filter: blur(10px);
+        z-index: 10; /* Ensure the header is above other content */
+		border-bottom:2px solid silver
+    }
+	
+	header h1{font-size:40px;line-height:120%;
+	text-shadow: 
+        2px 2px 0 rgba(0, 0, 0, 0.5), /* Dark shadow */
+        3px 3px 0 rgba(255, 255, 255, 0.2); /* Light shadow for highlight */
+    background: linear-gradient(90deg, #6a94b8, #24435c); /* Gradient effect */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: #fff; /* Fill color transparent to show gradient */
+    transform: translateZ(0); /* Trigger hardware acceleration */
+	}
+	
+	
+	
+	header h3{font-weight:100;font-size:16px;
+	text-shadow: 
+        1px 1px 0 rgba(0, 0, 0, 0.5), /* Dark shadow */
+        2px 2px 0 rgba(255, 255, 255, 0.2); /* Light shadow for highlight */
+    background: linear-gradient(90deg, #6a94b8, #24435c); /* Gradient effect */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: #fff; /* Fill color transparent to show gradient */
+    transform: translateZ(0); /* Trigger hardware acceleration */
+	}
+    
+
+    .podcast-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.6); /* Frosted glass effect */
+        border-radius: 8px;
+        margin: 20px 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        backdrop-filter: blur(10px); /* Frosted glass effect */
+    }
+
+    .podcast-cover {
+        width: 100%;
+        height: auto;
+        max-width: 250px; /* Limiting max width for larger screens */
+        border-bottom: 2px solid #24435c;
+        border-radius: 10px;
+    }
+
+    .details {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .details h2 {
+        margin-bottom: 10px;
+    }
+
+    .description {
+        margin-bottom: 15px;
+    }
+
+    .metadata {
+        margin-top: 15px;
+        font-size: 0.9em;
+        color: #666;
+    }
+
+    .subscribe {
+        text-align: center;
+        padding: 20px;
+        background: rgba(225, 225, 225, 0.7); /* Frosted glass effect */
+        border-radius: 8px;
+        margin: 20px 0;
+        backdrop-filter: blur(10px); /* Frosted glass effect */
+    }
+
+    .subscribe h3 {
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .btn {
+        background: #24435c;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .btn:hover {
+        background: #785807;
+    }
+
+    .btn:active {
+        position: relative;
+        top: 1px;
+        background: grey;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #333;
+        color: white;
+        border-radius: 8px;
+        letter-spacing: 1px;
+    }
+
+    #darkModeToggle {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        padding: 6px 10px;
+        cursor: pointer;
+        font-size: 14px;
+        border-radius: 8px;
+        background: grey;
+        border: 0px solid transparent;
+    }
+
+    #darkModeToggle:hover {
+        background-color: darkgoldenrod;
+    }
+
+    /* Dark Mode Styles */
+    body.dark-mode {
+        background-color: #1e1e2f;
+        color: #ffffff;
+		 background-image: url('../images/resources/podcastdark.jpg');
+        background-size: cover; /* Ensure the image covers the whole screen */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent repetition */
+		background-attachment: fixed; /* Keep the background fixed */
+    }
+
+    body.dark-mode header {
+        background: rgba(22, 22, 29, 0.6); /* Frosted glass effect */
+        color: white;
+        backdrop-filter: blur(10px); /* Frosted glass effect */
+    }
+
+    body.dark-mode .podcast-details {
+        background: rgba(42, 42, 58, 0.6); /* Frosted glass effect */
+        backdrop-filter: blur(10px); /* Frosted glass effect */
+    }
+
+    body.dark-mode .subscribe {
+        background: rgba(22, 22, 29, 0.6); /* Frosted glass effect */
+        backdrop-filter: blur(10px); /* Frosted glass effect */
+    }
+
+    body.dark-mode .btn {
+        background: #646482;
+    }
+
+    body.dark-mode .btn:hover {
+        background: #2c2c3a;
+    }
+	
+	
+
+
+	
+	@media (max-width: 500px) {
+	header{text-align:left}
+    header h1 {
+        font-size: 32px; /* Reduce size on small screens */
+    }
+	body {margin-top:95px}
+}
+		@media (max-width: 400px) {
+    header h1 {
+        font-size: 26px; /* Reduce size on small screens */
+    }
+	header h3 {font-size:14px}
+	body {margin-top:85px}
+}
+
+
+
+    @media (min-width: 600px) {
+        .podcast-details {
+            flex-direction: row;
+        }
+
+        .details {
+            text-align: left;
+        }
+
+        .podcast-cover {
+            max-width: 250px;
+        }
+    }
+
+    @media (min-width: 500px) {
+        header {
+            padding: 35px 30px 40px 30px;
+        }
+
+        .details h2 {
+            font-size: 1.5em;
+        }
+
+        .btn {
+            padding: 15px 25px;
+        }
+		
+		
+    }
+	
+
+	
+	#myBtn:hover{background-color:#555;transition:0.7s;-webkit-transition:0.7s}
+	#myBtn{display:none;position:fixed;bottom:10px!important;right:10px!important;z-index:99;font-size:14px;border:1px solid #fff;outline:none;background-color:#24435c;color:#fff;cursor:pointer;padding:10px!important;border-radius:4px;transition:0.7s;-webkit-transition:0.7s}
+</style>
+
+</head>
+<body><button onclick="document.body.scrollTop = 0;document.documentElement.scrollTop = 0;" id="myBtn">Top</button>
+    <header>
+	<div style="">
+        <h1>News From The Edge</h1>
+
+		
+        <h3>Podcast - The Van Loo Chronicles</h3>
+		<button id="darkModeToggle" class="btn">
+		<span id="icon">☀</span>
+		</button>
+	</div>
+    </header>
+    <main>
+	
+
+        <section class="podcast-details">
+            <img src="https://blog.ssuiteoffice.com/images/mainheaders/getridofprintersandgodigital.jpg" alt="Podcast Cover" class="podcast-cover">
+            <div class="details">
+                <h2>Paperless Paradise: The Digital Document Revolution</h2>
+                <p class="description">Ever wondered why we still cling to physical paper in an increasingly digital world?</p>
+                <audio controls>
+                    <source src="../downloads/audiofiles/Embracing-The-Digital-Age.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="metadata">
+                    <span><strong>Release Date:</strong> October 10, 2024</span>
+                    <span><strong>Duration:</strong> 7 minutes</span>
+                </div>
+            </div>
+        </section>
+		
+		
+		
+		        <section class="podcast-details">
+            <img src="https://blog.ssuiteoffice.com/images/ssuiteoffice/ssuitemainposter.jpg" alt="Podcast Cover" class="podcast-cover">
+            <div class="details">
+                <h2>Game On: Unleashing SSuite NetSurfer E-Gamer!</h2>
+                <p class="description">In this episode we're diving into the ultimate web browser for gamers and streaming enthusiasts.</p>
+                <audio controls>
+                    <source src="../downloads/audiofiles/SSuite-E-Gamer-Podcast.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="metadata">
+                    <span><strong>Release Date:</strong> October 10, 2024</span>
+                    <span><strong>Duration:</strong> 7:56 minutes</span>
+                </div>
+            </div>
+        </section>
+		
+		
+		
+		        <section class="podcast-details">
+            <img src="https://blog.ssuiteoffice.com/images/ssuiteoffice/netsurferbrowser.jpg" alt="Podcast Cover" class="podcast-cover">
+            <div class="details">
+                <h2>Surf Smart: Unlocking SSuite NetSurfer Extreme!</h2>
+                <p class="description">In this episode, we explore the ins and outs of our most advanced web browser that also accepts v3 extensions.</p>
+                <audio controls>
+                    <source src="../downloads/audiofiles/ssuite_netsurfer_extreme_podcast.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="metadata">
+                    <span><strong>Release Date:</strong> October 10, 2024</span>
+                    <span><strong>Duration:</strong> 9:41 minutes</span>
+                </div>
+            </div>
+        </section>
+
+
+		        <section class="podcast-details">
+            <img src="https://blog.ssuiteoffice.com/images/mainheaders/ssuiteonlineoffice.jpg" alt="Podcast Cover" class="podcast-cover">
+            <div class="details">
+                <h2>All About SSuite Office Software</h2>
+                <p class="description">We are the proverbial and also literal expression of  "two guys in a garage", what else is new... right?</p>
+                <audio controls>
+                    <source src="../downloads/audiofiles/All-About-SSuite-Software.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="metadata">
+                    <span><strong>Release Date:</strong> October 10, 2024</span>
+                    <span><strong>Duration:</strong> 9:41 minutes</span>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="subscribe">
+            <h3>Subscribe to our podcast...</h3>
+            <div class="buttons">
+			    <a href="https://open.spotify.com/show/4dzKlNOqcKQEWAgHJwxkzM" target="_blank" class="btn">Listen on Spotify</a>
+                <a href="https://podcasters.spotify.com/pod/show/ssuite-office-software" target="_blank" class="btn">Spotify For Podcasters</a>
+				<a href="../software.htm" class="btn">Return To SSuite Office</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - 2037 SSuite Office Podcast. All rights reserved.</p>
+    </footer>
+	
+	  <script type="text/javascript" charset="utf-8">
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const icon = document.getElementById('icon');
+
+        // Check localStorage for dark mode preference
+        const isDarkMode = localStorage.getItem('darkMode') === 'true';
+
+        // Apply dark mode if previously set
+        if (isDarkMode) {
+            document.body.classList.add('dark-mode');
+            icon.textContent = '🌙'; // Set moon icon
+        }
+
+        // Toggle dark mode on button click
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            // Save preference to localStorage
+            localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+
+            // Change icon based on mode
+            icon.textContent = document.body.classList.contains('dark-mode') ? '🌙' : '☀️';
+        });
+		
+		function scrollFunction(){document.body.scrollTop>20||document.documentElement.scrollTop>20?(document.getElementById("myBtn").style.display="block"):(document.getElementById("myBtn").style.display="none")}window.onscroll=function(){scrollFunction()}
+    </script>
+</body>
+</html>
