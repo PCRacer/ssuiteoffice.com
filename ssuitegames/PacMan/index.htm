@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Pacman in HTML 5 Canvas</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="pacman-canvas.css">
+<meta name="description" content="Play Pacman Canvas for free on your desktop or mobile. This whole game is open source an was created in HTML5." />
+<link rel="canonical" href="../ssuitegames/PacMan/index.htm" />
+<!-- Facebook Open Graph Information -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@SSuiteOffice"/>
+<meta name="twitter:creator" content="@SSuiteOffice"/>
+<meta property="og:title" content="Arcade Games - PacMan in HTML5 Canvas. Explore Our Free Office Software Categories"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.ssuiteoffice.com/ssuitegames/PacMan/index.htm"/>
+<meta property="og:image" content="https://www.ssuiteoffice.com/images/categories/softwarecategories.png"/>
+<meta property="og:image:alt" content="PacMan in HTML5 Canvas. All our software is free for download, only from SSuite Office Software."/>
+<meta property="og:site_name" content="SSuite Office Software"/>
+<meta property="og:description" content="Arcade Games - PacMan on HTML5 Canvas. Explore our free office software categories and discover a whole new world of alternative productivity apps. We provide safe and trusted free software and office suites for daily use."/>
+<!-- Mobile Viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<!-- Apple Mobile Web Capability -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- Script -->
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.hammer.min.js" type="text/javascript"></script>
+</head>
+<body>
+<P align="left" style="font-size:16px;z-index:1;"><A HREF="javascript:javascript:history.go(-1)" style="text-decoration:none;color:#fff;padding:25px;;" title="Go Back To SSuite Office..."><strong><<&nbsp; Back</strong></A>
+<A href="../../index.htm"><IMG id="homebtn" border="0" align="right" style="position:relative;top:-5px;padding-left:25px;padding-right:50px;z-index:1;" src="data:image/png;base64,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" height="41"></A>
+<A href="../../software.htm"><IMG id="software" border="0" align="right" style="position:relative;top:-5px;padding-left:50px;" src=" data:image/png;base64,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" height="40"></A></P>
+<div class="container" style="position:relative;top:-55px;margin:auto;max-width:620px;">
+<div class="main">
+<!-- Display this message if Javascript is disabled -->
+<noscript>
+<h2>Enable Javascript!</h2>
+<p>This HTML 5 app requires Javascript to run. Please check that Javascript is enabled in your browser.</p>
+</noscript>
+<!-- Highscore -->
+<div class="content" id="highscore-content">
+<div class="button" id="back">&lt; back</div>
+<div>
+<h1>Highscore</h1>
+<p><ol id="highscore-list"></ol></p></div></div>
+<!-- INSTRUCTIONS -->
+<div class="content" id="instructions-content">
+	<div class="button" id="back">&lt; back</div>
+	<div>
+		<h1>Instructions</h1>
+		<div class="nomobile">
+			<h2>Controls</h2>
+			<p>Use your arrow keys or [W,A,S,D] keys to navigate pacman.</p>
+			<p>To pause / resume the game press [SPACE] or [ESC] or just click into the game area.</p>
+		</div>
+		<div class="mobile">
+			<h2>Controls</h2>
+			<p>Use swipe gestures to navigate pacman.</p>
+			<p>Alternatively use the Arrow Buttons underneath the game area to navigate pacman.</p>
+			<p>To pause / resume the game, touch the game area once.</p>
+		</div>
+		<div>
+			<h2>Ghosts</h2>
+			<p>Ghosts are creatures that hunt pacman and will kill him if they catch him.</p>
+			<p>Every ghost has its own strategy to chase down pacman.</p>
+			<h3>Inky<img src="img/inky.svg" class="pull-right"></h3>
+			Inky will stay in the ghost house until pacman has eaten at least 30 pills.	His home is the bottom right corner.
+			<h3>Blinky <img src="img/blinky.svg" class="pull-right"></h3>
+			Blinky is the most agressive of the 4 ghosts. He will start chasing pacman right away, and aim directly at him. His home is the upper right corner.
+			<h3>Pinky<img src="img/pinky.svg" class="pull-right"></h3>
+			Pinky will start chasing pacman right away, he will always aim 4 fields ahead and 4 fields left of pacman. His home is the upper left corner.
+			<h3>Clyde<img src="img/clyde.svg" class="pull-right"></h3>
+			Inky will stay in the ghost house until pacman has eaten at least 2/3 of all pills. His home is the bottom left corner.
+		</div>
+		<div>
+			<h2>Ghost moods</h2>
+			The ghosts have two different moods that change the way they act during the game.
+			<h3>Scatter mood</h3>
+			<p>This is the default mood. When ghosts are in scatter mood, they will just go to their home corner and stay there.</p>
+			<img src="img/instructions/instructions_scatter.PNG">
+			<h3>Chase mood</h3>
+			<p>After a certain time the ghosts change their mood and want to go chasing pacman. This is indicated through the walls turning red.</p>
+			<img src="img/instructions/instructions_chase.PNG">
+		</div>
+		<div>
+			<h2>Items</h2>
+			<h3>Pills</h3>
+			<p>The goal of every level is, to eat all the white pills without getting catched by the ghosts. One pill results in 10 points.</p>
+			<h3>Powerpills</h3>
+			<p>In every level there are 4 powerpills, which are a bit bigger than the regular ones. If Pacman eats those, he will get strong enough to eat the ghosts. You can see this indicated by the ghosts turning blue. One powerpill results in 50 points.</p>
+			<img src="img/instructions/instructions_powerpill.PNG">
+			<p>Eating a ghost results in 100 points. The soul of the ghost will return to the ghost house before starting to chase Pacman again.</p>
+		</div></div></div>
+<!-- Info -->
+<div class="content" id="info-content">
+	<div class="button" id="back">&lt; back</div>
+	<div>
+		<h1>Info</h1>
+		<p>Current Version: 0.91 (15.01.2016) (<a href="#" id="updateCode">get latest</a>)</p>
+		<img src="img/platzh1rsch-logo.png">
+		<p>Pacman Canvas is Open Source, written by <a href="http://platzh1rsch.ch">platzh1rsch</a>. You can get the code on <a target="_blank" href="https://github.com/platzhersh/pacman-canvas" target="_blank">github</a>.</p>
+		<p>If you have any suggestions how to make this app better, please post your suggestion / request on <a target="_blank" href="https://platzh1rsch.uservoice.com/">uservoice</a>.</p>
+		<p>
+	</div>
+</div>
+<!-- main game content -->
+<div class="content" id="game-content">
+	<!-- main game content -->
+	<div class="game wrapper">
+		<div class="score">Score:</div>
+		<div class="level">Lvl:</div>
+		<div class="lives">Lives: </div>
+		<div class="controlSound">
+			<img src="img/audio-icon-mute.png" id="mute">
+		</div>
+		<!-- canvas is splitted into 18x13 fields -->
+		<div id="canvas-container">
+			<div id="canvas-overlay-container">
+				<div id="canvas-overlay-content">
+					<div id="title">Pacman Canvas</div>
+					<div><p id="text">Click to Play</p></div>
+				</div>
+			</div>
+			<canvas id="myCanvas" width="540" height="390">
+			<p>Canvas not supported</p>
+			</canvas>
+		</div>
+		<div class="controls" id="game-buttons">
+		<!-- Will be moved to Instructions 
+		<p class="nomobile">Use W-A-S-D keys to navigate Pac-Man</p>
+		-->
+			<!-- OLD Buttons -->
+			<div>
+				<span id="up" class="controlButton">&uarr;</span>
+			</div>
+			<div>
+				<span id="left" class="controlButton">&larr;</span>
+				<span id="down" class="controlButton">&darr;</span>
+				<span id="right" class="controlButton">&rarr;</span>
+			</div>	
+		</div>
+		<!-- inGame Controls End -->
+		
+		<!-- Game Menu -->		
+		<div class="controls" id="menu-buttons">
+			<ul>
+				<li class="button" id="newGame">New Game</li>
+				<li class="button" id="highscore">Highscore</li>
+				<li class="button" id="instructions">Instructions</li>
+				<li class="button" id="info">Info</li>
+			</ul>
+		</div>
+		<!-- Game Menu End -->
+	</div>
+	<div class="description nomobile">
+		<p>This whole thing was written in HTML5, CSS3 and Javascript (using small bits of jquery). For the basics I was following the <a href="http://devhammer.net/blog/exploring-html5-canvas-part-1---introduction" target="_blank">"Exploring HTML5 Canvas"</a> Tutorials (Part 1 - 6) by Devhammer. Thanks for the great Tutorial!</a>
+		<p>For some other stuff, like how to write objectorientated javascript I was following the tutorials over at <a href="http://www.codecademy.com/" target="_blank">http://www.codecademy.com/</a>, which is a really great site to learn Javascript and also other languages.</a>
+		<span id="audio">
+			<audio id="theme" preload="auto">
+				<source src="wav/theme.wav" type="audio/wav">
+				<source src="mp3/theme.mp3" type="audio/mpeg">
+			</audio>
+			<audio id="waka" preload="auto">
+				<source src="wav/waka.wav" type="audio/wav">
+				<source src="mp3/waka.mp3" type="audio/mpeg">
+			</audio>
+			<audio id="die" preload="auto">
+				<source src="wav/die.wav" type="audio/wav">
+				<source src="mp3/die.mp3" type="audio/mpeg">
+			</audio>
+			<audio id="powerpill" preload="auto">
+				<source src="wav/powerpill.wav" type="audio/wav">
+				<source src="mp3/powerpill.mp3" type="audio/mpeg">
+			</audio>
+		</span>
+</div></div></div></div>
+<script src="pacman-canvas.js" type="text/javascript"></script>
+</body>
+</html>
