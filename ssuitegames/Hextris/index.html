@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset="utf-8" />
+<title>Hextris 3D Puzzle</title>
+<meta name="description" content="Play Hextris 3D Puzzle for free on your desktop or mobile. This whole game is open source an was created in HTML5." />
+<link rel="canonical" href="../ssuitegames/Hextris/index.html" />
+<!-- Facebook Open Graph Information -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@SSuiteOffice"/>
+<meta name="twitter:creator" content="@SSuiteOffice"/>
+<meta property="og:title" content="Arcade Games - Hextris 3D Puzzle in HTML5 Canvas. Explore Our Free Office Software Categories"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.ssuiteoffice.com/ssuitegames/Hextris/index.html"/>
+<meta property="og:image" content="https://www.ssuiteoffice.com/images/categories/softwarecategories.png"/>
+<meta property="og:image:alt" content="Hextris 3D Puzzle in HTML5 Canvas. All our software is free for download, only from SSuite Office Software."/>
+<meta property="og:site_name" content="SSuite Office Software"/>
+<meta property="og:description" content="Arcade Games - Hextris 3D Puzzle on HTML5 Canvas. Explore our free office software categories and discover a whole new world of alternative productivity apps. We provide safe and trusted free software and office suites for daily use."/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui"/>	
+<link rel="icon" type="image/png" href="favicon.ico">
+<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style/fa/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<script type='text/javascript' src="vendor/hammer.min.js"></script>
+<script type='text/javascript' src="vendor/js.cookie.js"></script>
+<script type='text/javascript' src="vendor/jsonfn.min.js"></script>
+<script type='text/javascript' src="vendor/keypress.min.js"></script>
+<script type='text/javascript' src="vendor/jquery.js"></script>
+<script type='text/javascript' src="js/save-state.js"></script>
+<script type='text/javascript' src="js/view.js"></script>
+<script type='text/javascript' src="js/wavegen.js"></script>
+<script type='text/javascript' src="js/math.js"></script>
+<script type='text/javascript' src="js/Block.js"></script>
+<script type='text/javascript' src="js/Hex.js"></script>
+<script type='text/javascript' src="js/Text.js"></script>
+<script type='text/javascript' src="js/comboTimer.js"></script>
+<script type='text/javascript' src="js/checking.js"></script>
+<script type='text/javascript' src='js/update.js'></script>
+<script type='text/javascript' src='js/render.js'></script>
+<script type='text/javascript' src="js/input.js"></script>
+<script type='text/javascript' src="js/main.js"></script>
+<script type='text/javascript' src="js/initialization.js"></script>
+<script type='text/javascript' async src="a.js"></script>
+<script src="vendor/sweet-alert.min.js"></script>
+<link rel="stylesheet" href="style/rrssb.css"/>
+</head>
+<body>
+		<canvas id="canvas"></canvas>
+		<div id="overlay" class="faded overlay"></div>
+		<div id='startBtn' ></div>
+		<div id="helpScreen" class='unselectable'>
+			<div id='inst_main_body'></div>
+		</div>
+		<img id="openSideBar" class='helpText' src="./images/btn_help.svg"/>
+		<div class="faded overlay"></div>
+		<img id="pauseBtn" src="./images/btn_pause.svg"/>
+		<img id='restartBtn' src="./images/btn_restart.svg"/>
+		<div id='HIGHSCORE'>HIGH SCORE</div>
+
+		<div id='highScoreInGameText'>
+			<div id='highScoreInGameTextHeader'>HIGH SCORE</div><div id='currentHighScore'>10292</div>
+		</div>
+		<div id="gameoverscreen">
+			<div id='container'>
+				<div id='gameOverBox' class='GOTitle'>GAME OVER</div>
+				<div id='cScore'>1843</div>
+				<div id='highScoresTitle' class='GOTitle'>HIGH SCORES</div>
+				<div class='score'><span class='scoreNum'>1.</span> <div id="1place" style="display:inline;">0</div></div>
+				<div class='score'><span class='scoreNum'>2.</span> <div id="2place" style="display:inline;">0</div></div>
+				<div class='score'><span class='scoreNum'>3.</span> <div id="3place" style="display:inline;">0</div></div>
+			</div>
+			<div id='bottomContainer'>
+				<img id='restart' src='./images/btn_restart.svg' height='57px'>
+				
+				<div id='buttonCont'>
+					<ul class="rrssb-buttons">		
+				</ul>	
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src='vendor/rrssb.min.js'></script>
+	</body>
+</html>
