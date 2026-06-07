@@ -1,0 +1,29 @@
+A2|Name:|'Comic Sans MS'|normal|normal|none|16px|left|rgb(255, 255, 255)|rgb(0, 128, 192)|125px
+B2|Jon Doe|Tahoma|bold|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|100px
+A3|Hourly Rate $:|'Comic Sans MS'|normal|normal|none|16px|left|rgb(255, 255, 255)|rgb(0, 128, 192)|125px
+B3|10.86|Tahoma|bold|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|100px
+A5|Date|'Comic Sans MS'|normal|normal|none|18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|125px
+B5|Log In|'Comic Sans MS'|normal|normal|none|18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|100px
+C5|log Out|'Comic Sans MS'|normal|normal|none|18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|100px
+D5|Total Hours|'Comic Sans MS'|normal|normal|none|18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|125px
+E5|Total Pay $|'Comic Sans MS'|normal|normal|none|18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|125px
+A6|Monday|'Comic Sans MS'|normal|normal|none|16px|left|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+B6|'10:00 AM|||||||||100px
+C6|'02:00 PM|||||||||100px
+D6|4||bold||||center|||125px
+E6|=B3*D6|'Comic Sans MS'|normal|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 128, 128)|125px
+A7|Tuesday|'Comic Sans MS'|normal|normal|none|16px|left|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+E7|=B3*D7|'Comic Sans MS'|normal|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 128, 128)|125px
+A8|Wednesday|'Comic Sans MS'|normal|normal|none|16px|left|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+E8|=B3*D8|'Comic Sans MS'|normal|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 128, 128)|125px
+A9|Thursday|'Comic Sans MS'|normal|normal|none|16px|left|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+E9|=B3*D9|'Comic Sans MS'|normal|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 128, 128)|125px
+A10|Friday|'Comic Sans MS'|normal|normal|none|16px|left|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+E10|=B3*D10|'Comic Sans MS'|normal|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 128, 128)|125px
+A11|Saterday|'Comic Sans MS'|normal|normal|none|16px|left|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+E11|=B3*D11|'Comic Sans MS'|normal|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 128, 128)|125px
+A12|Sunday|'Comic Sans MS'|normal|normal|none|16px|left|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+E12|=B3*D12|'Comic Sans MS'|normal|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 128, 128)|125px
+C13|TOTAL|'Comic Sans MS'|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|100px
+D13|=D6+D7+D8+D9+D10+D11+D12|'Comic Sans MS'|bold|normal|none|16px|center|rgb(0, 128, 192)|rgb(255, 255, 0)|125px
+E13|=E6+E7+E8+E9+E10+E11+E12|'Comic Sans MS'|normal|normal|none|16px|right|rgb(0, 128, 192)|rgb(255, 255, 0)|125px

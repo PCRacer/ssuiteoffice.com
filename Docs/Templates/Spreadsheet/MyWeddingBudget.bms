@@ -1,0 +1,192 @@
+A1|Total - Budget|"Comic Sans MS"|bold|normal|none|20px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|180px
+B1|$|"Comic Sans MS"|normal|normal|none|20px|right|rgb(255, 255, 255)|rgb(128, 0, 128)|
+C1|=B4+B24+F4+F21|"Comic Sans MS"|normal|normal|none|20px|right|rgb(255, 255, 255)|rgb(128, 0, 128)|90px
+D1|Estimated|"Comic Sans MS"|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|
+F1|$|"Comic Sans MS"|normal|normal|none|20px|right|rgb(255, 255, 255)|rgb(128, 0, 128)|
+G1|=C22+C34+G19+G34|"Comic Sans MS"|normal|normal|none|20px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|90px
+H1|Actual Cost|"Comic Sans MS"|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|120px
+B3|Estimated|Tahoma|bold|normal|none|14px|right|rgb(128, 0, 128)|rgb(255, 255, 255)|
+C3|Actual|Tahoma|bold|normal|none|14px|right|rgb(128, 0, 128)|rgb(255, 255, 255)|90px
+F3|Estimated|Tahoma|bold|normal|none|14px|right|rgb(128, 0, 128)|rgb(255, 255, 255)|
+G3|Actual|Tahoma|bold|normal|none|14px|right|rgb(128, 0, 128)|rgb(255, 255, 255)|90px
+A4|Apparel - Budget|Tahoma|bold|normal|none|14px|left|rgb(255, 255, 255)|rgb(128, 0, 128)|180px
+B4|3000|Tahoma|bold|normal|none|14px|right|rgb(255, 255, 255)|rgb(128, 0, 128)|
+C4||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(128, 0, 128)|90px
+E4|Ceremony  - Budget|Tahoma|bold|normal|none|14px|left|rgb(255, 255, 255)|rgb(128, 0, 128)|188px
+F4|2650|Tahoma|bold|normal|none|14px|right|rgb(255, 255, 255)|rgb(128, 0, 128)|
+G4||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(128, 0, 128)|90px
+H4||Tahoma|normal|normal|none|14px|right|rgb(255, 255, 255)|rgb(255, 255, 255)|120px
+A5|Gown|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B5|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C5|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E5|Clergy|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F5|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G5|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A6|Bridal Shoes|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B6|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C6|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E6|Location Fee|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F6|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G6|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A7|Bridal slip|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B7|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C7|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E7|Alter Decorations|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F7|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G7|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A8|Hosiery|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B8|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C8|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E8|Chain Pew Rental|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F8|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G8|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A9|Jewelry|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B9|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C9|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E9|Pew / Chair Decorations|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F9|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G9|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A10|Bridal Headpiece/Veil|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B10|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C10|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E10|Guest book / Pen|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F10|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G10|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A11|Bridal Gloves|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B11|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C11|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E11|Ring Bearer Pillow|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F11|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G11|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A12|Bridesmaid Dresses|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B12|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C12|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E12|Flower Girl Basket|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F12|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G12|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A13|Bridesmaid Accessories|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B13|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C13|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E13|Unity Candle|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F13|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G13|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A14|Bridesmaid Shoes|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B14|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C14|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E14|Aide Runner|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F14|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G14|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A15|Groom's Tux|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B15|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C15|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E15|Others|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F15|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G15|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A16|Groomsmen Tuxes|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B16|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C16|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E16|Gratuity|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F16|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G16|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A17|Garters|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B17|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C17|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E17|Transportation|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F17|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G17|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A18|Alterations|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B18|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C18|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E18|Childcare|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F18|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G18|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A19|Going-Away Outfit|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B19|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C19|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E19|Total Ceremony $|Tahoma|bold|normal|none|14px|right|rgb(255, 255, 255)|rgb(128, 0, 128)|188px
+F19|=F5+F6+F7+F8+F9+F10+F11+F12+F13+F14+F15+F16+F17+F18|Tahoma|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|
+G19|=G5+G6+G7+G8+G9+G10+G11+G12+G13+G14+G15+G16+G17+G18|Tahoma|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|90px
+A20|Honeymoon Clothes|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B20|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C20|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A21|Children's apparel|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B21|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C21|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E21|Rehearsal Dinner - Budget|Tahoma|bold|normal|none|14px|left|rgb(255, 255, 255)|rgb(128, 0, 128)|188px
+F21|4322|Tahoma|bold|normal|none|14px|right|rgb(255, 255, 255)|rgb(128, 0, 128)|
+G21||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(128, 0, 128)|90px
+A22|Total Apparel $|Tahoma|bold|normal|none|14px|right|rgb(255, 255, 255)|rgb(128, 0, 128)|180px
+B22|=B5+B6+B7+B8+B9+B10+B11+B12+B13+B14+B15+B16+B17+B18+B19+B20+B21|Tahoma|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|
+C22|=C5+C6+C7+C8+C9+C10+C11+C12+C13+C14+C15+C16+C17+C18+C19+C20+C21|Tahoma|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|90px
+E22|Caterer|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F22|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G22|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E23|Bartender|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F23|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G23|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A24|Flowers - Budget|Tahoma|bold|normal|none|14px|left|rgb(255, 255, 255)|rgb(128, 0, 128)|180px
+B24|2000|Tahoma|bold|normal|none|14px|right|rgb(255, 255, 255)|rgb(128, 0, 128)|
+C24||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(128, 0, 128)|90px
+E24|Liquor|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F24|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G24|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A25|Brides Bouquet|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B25|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C25|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E25|Tables / Chairs|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F25|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G25|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A26|Bridesmaids Bouquets|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B26|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C26|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E26|Decorations / Centerpieces|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F26|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G26|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A27|Corsages|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B27|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C27|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E27|Security|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F27|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G27|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A28|Boutonnière|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B28|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C28|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E28|Music / Sound System|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F28|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G28|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A29|Reception Centerpieces|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B29|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C29|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E29|Guest Parking|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F29|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G29|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A30|Altarpiece|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B30|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C30|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E30|Dishes|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F30|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G30|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A31|Pew / Chair-bows|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B31|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C31|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E31|Centerpieces / Linens|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F31|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G31|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A32|Throw-Away-Bouquet|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B32|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C32|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E32|Food|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F32|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G32|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A33|Flower Girl's Flowers|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|180px
+B33|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+C33|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+E33|Servers|Tahoma|normal|normal|none|14px|left|rgb(128, 0, 128)|rgb(238, 230, 242)|188px
+F33|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|
+G33|0|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|90px
+A34|Total Flowers $|Tahoma|bold|normal|none|14px|right|rgb(255, 255, 255)|rgb(128, 0, 128)|180px
+B34|=B25+B26+B27+B28+B29+B30+B31+B32+B33|Tahoma|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|
+C34|=C25+C26+C27+C28+C29+C30+C31+C32+C33|Tahoma|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|90px
+E34|Total Rehearsal Dinner $|Tahoma|bold|normal|none|14px|right|rgb(255, 255, 255)|rgb(128, 0, 128)|188px
+F34|=F22+F23+F24+F25+F26+F27+F28+F29+F30+F31+F32+F33|Tahoma|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|
+G34|=G22+G23+G24+G25+G26+G27+G28+G29+G30+G31+G32+G33|Tahoma|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(128, 0, 128)|90px

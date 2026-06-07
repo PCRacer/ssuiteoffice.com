@@ -1,0 +1,70 @@
+C1|Checkbook Register|'Comic Sans MS'|bold|||22px|left|rgb(0, 255, 0)|rgb(0, 128, 64)|225px
+D1||'Comic Sans MS'|bold|||22px|||rgb(0, 128, 64)|
+C2|Start Balance $|'Comic Sans MS'||||16px|right|rgb(255, 255, 255)|rgb(0, 128, 64)|225px
+D2|879.36|'Comic Sans MS'||||16px||rgb(255, 255, 255)|rgb(0, 128, 64)|
+F2||'Comic Sans MS'|normal|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|154px
+F3||'Comic Sans MS'|normal|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|154px
+C4|For the year 2016:|'Comic Sans MS'|normal|||16px|center|||225px
+A5|Date|'Comic Sans MS'|normal|normal|none|16px|left|rgb(255, 255, 255)|rgb(0, 128, 192)|
+B5|Num|'Comic Sans MS'|normal|normal|none|16px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|
+C5|Payee / Description|'Comic Sans MS'|normal|normal|none|16px|left|rgb(255, 255, 255)|rgb(0, 128, 192)|225px
+D5|Category|'Comic Sans MS'|normal|normal|none|16px|left|rgb(255, 255, 255)|rgb(0, 128, 192)|
+E5|Withdrawal / Payment (-)|'Comic Sans MS'|normal|normal|none|16px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|195px
+F5|Deposit / Credit (+)|'Comic Sans MS'|normal|normal|none|16px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|154px
+G5|Balance|'Comic Sans MS'|normal|normal|none|16px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|125px
+A6|January 1|||||||||
+B6|Start||||||center|||
+C6|Opening balance for the year 2016||||||left|||225px
+G6|=F6-E6+D2|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+A7|January 5|||||||||
+B7|Dep||||||center|||
+C7|Direct deposit from Employer||||||left|||225px
+D7|Wages||||||left|||
+F7|1000|||||||||154px
+G7|=G6+F7-E7|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+A8|January 6|||||||||
+B8|EFT||||||center|||
+C8|Car payment||||||left|||225px
+D8|Auto||||||left|||
+E8|115.87|||||||||195px
+G8|=G7+F8-E8|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+A9|January 8|||||||||
+B9|TXFR||||||center|||
+C9|Joe's Food Mart||||||left|||225px
+D9|Groceries||||||left|||
+E9|87.34|||||||||195px
+G9|=G8+F9-E9|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G10||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G11||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G12||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G13||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G14||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G15||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G16||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G17||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G18||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G19||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G20||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G21||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G22||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G23||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G24||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G25||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G26||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G27||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G28||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G29||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G30||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G31||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G32||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G33||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G34||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G35||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G36||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G37||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G38||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G39||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G40||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(235, 235, 235)|125px
+G41||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+F42||'Comic Sans MS'|normal|normal|none|16px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|154px
+G42||'Comic Sans MS'|normal|normal|none|16px|right|rgb(255, 255, 255)|rgb(255, 255, 255)|125px

@@ -1,0 +1,116 @@
+A1|W.R.Janzen(c)2020|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|148px
+B1|Dec 22|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|90px
+C1|F: L-dec22|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|99px
+D1||||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|75px
+E1|Food|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|112px
+F1|Amount (g)#|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|93px
+G1|Carb Factor|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|75px
+H1|Carbs (g)|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|75px
+A2|BG Target (mmol/L)|||||14px|center|rgb(40, 102, 118)|rgb(255, 255, 255)|148px
+B2|=6|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|90px
+C2|Sensitivity|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|99px
+D2|=2|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+E2|Bread|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|112px
+F2|=25|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|93px
+G2|=0.48|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+H2|=F2*G2|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+A3|Time|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|148px
+B3|12:32 p|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|90px
+C3|Carb Ratio|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|99px
+D3|=6|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+E3|125g Greek yog|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|112px
+F3|=5|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|93px
+G3|=1|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+H3|=F3*G3|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+A4|BG Test (mmol/L)|||||14px|center|rgb(40, 102, 118)|rgb(255, 255, 255)|148px
+B4|=8.4|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|90px
+C4|Correction (U)|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|99px
+D4|=(B4-B2)/D2|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+E4|Banana|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|112px
+F4|=104|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|93px
+G4|=0.21|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+H4|=F4*G4|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+A5|Meal Carbs (g)|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|148px
+B5|=H8|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|90px
+C5|Meal Insulin (U)|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|99px
+D5|=B5/D3|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+E5|Tbsp P butter|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|112px
+F5|=2|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|93px
+G5|=0.5|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+H5|=F5*G5|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+A6|Bolus Insulin (U)|||||14px|center|rgb(40, 102, 118)|rgb(255, 255, 255)|148px
+B6|=D4+D5|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|90px
+C6|Injected Units|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|99px
+D6|10|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+E6|Walnuts|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|112px
+F6|=1|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|93px
+G6|=1|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+H6|=F6*G6|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+A7||||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|148px
+B7||||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|90px
+C7||||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|99px
+D7||||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+E7|Milk|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|112px
+F7|250|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|93px
+G7|0.05|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+H7|=F7*G7|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+A8||||||14px|center|rgb(40, 102, 118)|rgb(255, 255, 255)|148px
+B8||||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|90px
+C8||||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|99px
+D8||||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+E8||||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|112px
+F8|#wt or gC/serv|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|93px
+G8|total C =|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+H8|=H2+H3+H4+H5+H6+H7|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+A9|Unused Insulin|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|148px
+B9|Table 7-5*|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|90px
+C9|*Gary Scheiner|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|99px
+D9||||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|75px
+E9||||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|112px
+F9||||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|93px
+G9||||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|75px
+H9||||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|75px
+I9||||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|60px
+J9||||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|60px
+A10|Elapsed Time|||||14px|center|rgb(40, 102, 118)|rgb(255, 255, 255)|148px
+B10|0.0 h|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|90px
+C10|0.5 h|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|99px
+D10|1.0 h|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+E10|1.5 h|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|112px
+F10|2.0 h|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|93px
+G10|2.5 h|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+H10|3.0 h|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+I10|3.5 h|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|60px
+J10|4.0 h|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|60px
+A11|R Insulin|||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|148px
+B11|100 %|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|90px
+C11|90 %|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|99px
+D11|70 %|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+E11|50 %|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|112px
+F11|30 %|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|93px
+G11|20 %|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+H11|10 %|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+I11|5 %|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|60px
+J11|0 %|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|60px
+A12|R Insulin (U)|||||14px|center|rgb(40, 102, 118)|rgb(255, 255, 255)|148px
+B12|=10|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|90px
+C12|=B12*0.9|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|99px
+D12|=B12*0.7|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+E12|=B12*0.5|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|112px
+F12|=B12*0.3|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|93px
+G12|=B12*0.2|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+H12|=B12*0.1|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|75px
+I12|=B12*0.05|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|60px
+J12|=B12*0|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|60px
+A13||||||14px|center|rgb(40, 102, 118)|rgb(160, 224, 224)|148px
+B13|^ Prev Bolus|||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|90px
+C13||||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|99px
+D13||||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+E13||||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|112px
+F13||||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|93px
+G13||||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+H13||||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|75px
+I13||||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|60px
+J13||||||14px|center|rgb(72, 132, 54)|rgb(255, 255, 255)|60px
+A15|*Think Like a Pancreas|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|148px
+B15|2004 edition|||||14px|center|rgb(72, 132, 54)|rgb(224, 255, 224)|90px

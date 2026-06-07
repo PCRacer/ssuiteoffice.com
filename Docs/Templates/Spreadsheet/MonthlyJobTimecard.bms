@@ -1,0 +1,196 @@
+A1|Name:|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 210, 166)|180px
+B1|Michael Monthly|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+J1|Name:|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 223, 255)|137px
+K1|Michael Monthly|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+A2|Month:|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 210, 166)|180px
+B2|Jun-2016|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+J2|Month:|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 223, 255)|137px
+K2|Jun-09|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+A3|Hourly Rate $|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 210, 166)|180px
+B3|12.75|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+J3|Hourly Rate $|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 223, 255)|137px
+K3|12.75|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(242, 242, 242)|125px
+C4|JUNE 2016|"Comic Sans MS"|bold|normal|none|20px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|125px
+H5| |Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|11px
+K5|Hrs worked|Tahoma|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(187, 0, 187)|125px
+L5| Total Pay  $|Tahoma|bold|normal|none|14px|center|rgb(255, 255, 255)|rgb(187, 0, 187)|125px
+A6|Week of 06/01/16|Tahoma|bold|normal|none|14px|center|rgb(0, 128, 192)|rgb(179, 231, 255)|180px
+B6|Log in|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+C6|Log Out|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+D6|Hrs worked|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+E6| Total Pay  $|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+J6|Week of 06/01/16|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 223, 255)|137px
+K6|=D14|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 232, 0)|125px
+L6|=B3*K6|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 232, 0)|125px
+A7|Monday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+B7|'09:00 AM|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+C7|'07:00 PM|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+D7|10.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E7|=B3*D7|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+G7||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|7px
+J7|Week of 06/08/16|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 223, 255)|137px
+K7|=D25|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 232, 0)|125px
+L7|=B3*K7|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 232, 0)|125px
+A8|Tuesday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D8|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E8|=B3*D8|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+J8|Week of 06/15/16|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 223, 255)|137px
+K8|=D36|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 232, 0)|125px
+L8|=B3*K8|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 232, 0)|125px
+A9|Wednesday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D9|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E9|=B3*D9|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+J9|Week of 06/22/16|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 223, 255)|137px
+K9|=D47|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 232, 0)|125px
+L9|=B3*K9|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 232, 0)|125px
+A10|Thursday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D10|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E10|=B3*D10|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+J10|Week of 06/29/16|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 223, 255)|137px
+K10|=D58|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 232, 0)|125px
+L10|=B3*K10|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 232, 0)|125px
+A11|Friday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D11|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E11|=B3*D11|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+J11|TOTAL |Tahoma|bold|normal|none|14px|right|rgb(255, 255, 255)|rgb(187, 0, 187)|137px
+K11|=K6+K7+K8+K9+K10|Tahoma|bold|normal|none|14px|right|rgb(255, 255, 255)|rgb(187, 0, 187)|125px
+L11|=L6+L7+L8+L9+L10|Tahoma|bold|normal|none|14px|right|rgb(255, 255, 255)|rgb(187, 0, 187)|125px
+A12|Saturday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D12|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E12|=B3*D12|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A13|Sunday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D13|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E13|=B3*D13|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+B14||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 255, 232)|125px
+C14|TOTAL|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+D14|=D7+D8+D9+D10+D11+D12+D13|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+E14|=E7+E8+E9+E10+E11+E12+E13|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+A17|Week of 06/08/16|Tahoma|bold|normal|none|14px|center|rgb(0, 128, 192)|rgb(179, 231, 255)|180px
+B17|Log in|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+C17|Log Out|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+D17|Hrs worked|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+E17| Total Pay $|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+A18|Monday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+B18|'09:00 AM|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+C18|'05:00 PM|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+D18|8.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E18|=B3*D18|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+K18||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+A19|Tuesday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D19|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E19|=B3*D19|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A20|Wednesday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D20|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E20|=B3*D20|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A21|Thursday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D21|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E21|=B3*D21|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A22|Friday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D22|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E22|=B3*D22|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A23|Saturday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D23|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E23|=B3*D23|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A24|Sunday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D24|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E24|=B3*D24|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+B25||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 255, 232)|125px
+C25|TOTAL|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+D25|=D18+D19+D20+D21+D22+D23+D24|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+E25|=E18+E19+E20+E21+E22+E23+E24|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+A28|Week of 06/15/16|Tahoma|bold|normal|none|14px|center|rgb(0, 128, 192)|rgb(179, 231, 255)|180px
+B28|Log in|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+C28|Log Out|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+D28|Hrs worked|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+E28| Total Pay $|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+A29|Monday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+B29|'09:00 AM|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+C29|'05:00 PM|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+D29|8.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E29|=B3*D29|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A30|Tuesday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D30|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E30|=B3*D30|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A31|Wednesday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D31|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E31|=B3*D31|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A32|Thursday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D32|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E32|=B3*D32|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A33|Friday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D33|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E33|=B3*D33|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A34|Saturday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D34|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E34|=B3*D34|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A35|Sunday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D35|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E35|=B3*D35|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+B36||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 255, 232)|125px
+C36|TOTAL|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+D36|=D29+D30+D31+D32+D33+D34+D35|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+E36|=E29+E30+E31+E32+E33+E34+E35|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+A39|Week of 06/22/16|Tahoma|bold|normal|none|14px|center|rgb(0, 128, 192)|rgb(179, 231, 255)|180px
+B39|Log in|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+C39|Log Out|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+D39|Hrs worked|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+E39| Total Pay $|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+A40|Monday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+B40|'09:00 AM|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+C40|'05:00 PM|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+D40|8.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E40|=B3*D40|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A41|Tuesday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D41|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E41|=B3*D41|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A42|Wednesday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D42|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E42|=B3*D42|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A43|Thursday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D43|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E43|=B3*D43|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A44|Friday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D44|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E44|=B3*D44|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A45|Saturday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D45|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E45|=B3*D45|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A46|Sunday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D46|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E46|=B3*D46|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+B47||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 255, 232)|125px
+C47|TOTAL|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+D47|=D40+D41+D42+D43+D44+D45+D46|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+E47|=E40+E41+E42+E43+E44+E45+E46|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+A50|Week of 06/29/16|Tahoma|bold|normal|none|14px|center|rgb(0, 128, 192)|rgb(179, 231, 255)|180px
+B50|Log in|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+C50|Log Out|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+D50|Hrs worked|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+E50| Total Pay $|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(179, 231, 255)|125px
+A51|Monday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+B51|'09:00 AM|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+C51|'05:00 PM|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 255)|125px
+D51|8.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E51|=B3*D51|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A52|Tuesday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D52|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E52|=B3*D52|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A53|Wednesday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D53|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E53|=B3*D53|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A54|Thursday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D54|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E54|=B3*D54|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A55|Friday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D55|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E55|=B3*D55|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A56|Saturday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D56|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E56|=B3*D56|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+A57|Sunday|Tahoma|bold|normal|none|14px|left|rgb(0, 0, 0)|rgb(179, 231, 255)|180px
+D57|0.00|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+E57|=B3*D57|Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(255, 255, 213)|125px
+B58||Tahoma|normal|normal|none|14px|right|rgb(0, 0, 0)|rgb(232, 255, 232)|125px
+C58|TOTAL|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+D58|=D51+D52+D53+D54+D55+D56+D57|Tahoma|bold|normal|none|14px|center|rgb(0, 0, 0)|rgb(223, 255, 223)|125px
+E58|=E51+E52+E53+E54+E55+E56+E57|Tahoma|bold|normal|none|14px|right|rgb(0, 0, 0)|rgb(223, 255, 223)|125px

@@ -1,0 +1,134 @@
+A1|Income|'Comic Sans MS'|normal|||18px|left|rgb(255, 255, 255)|rgb(64, 128, 128)|250px
+B1|Amount|'Comic Sans MS'|normal|||18px|center|rgb(255, 255, 255)|rgb(64, 128, 128)|80px
+C1|Daily Living|'Comic Sans MS'||||18px|left|rgb(255, 255, 255)|rgb(0, 128, 192)|250px
+D1|Amount|'Comic Sans MS'|normal|||18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|
+F1|Monthly Budget Sum|'Comic Sans MS'|normal|||18px||rgb(255, 255, 255)|rgb(0, 128, 192)|180px
+G1|Amount|'Comic Sans MS'||||18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|95px
+A2|Wages / Tips / Salary||||||left|||250px
+B2|2000||||||||rgb(235, 235, 235)|80px
+C2|Groceries||||||left|||250px
+D2|428.89||||||||rgb(235, 235, 235)|
+F2|Total Income||||||left|||180px
+G2|=B2+B3+B4+B5+B6+B7+B8+D31||||||||rgb(235, 235, 235)|95px
+A3|Interest Income||||||left|||250px
+B3|32.58||||||||rgb(235, 235, 235)|80px
+C3|Personal Supplies||||||left|||250px
+D3|0||||||||rgb(235, 235, 235)|
+F3|Total Expenses||||||left|||180px
+G3|=B23+B32+B38+D10+D23||||||||rgb(235, 235, 235)|95px
+A4|Dividends||||||left|||250px
+B4|0||||||||rgb(235, 235, 235)|80px
+C4|Clothing||||||left|||250px
+D4|0||||||||rgb(235, 235, 235)|
+F4|Net Finances $||bold|||||||180px
+G4|=G2-G3||bold||||center|rgb(255, 255, 255)|rgb(0, 128, 192)|95px
+A5|Refunds / Reimbursements||||||left|||250px
+B5|0||||||||rgb(235, 235, 235)|80px
+C5|Cleaning||||||left|||250px
+D5|0||||||||rgb(235, 235, 235)|
+A6|Transfer from Savings||||||left|||250px
+B6|0||||||||rgb(235, 235, 235)|80px
+C6|Education / Lessons||||||left|||250px
+D6|0||||||||rgb(235, 235, 235)|
+A7|Other||||||left|||250px
+B7|0||||||||rgb(235, 235, 235)|80px
+C7|Dining / Eating Out||||||left|||250px
+D7|0||||||||rgb(235, 235, 235)|
+A8|Other||||||left|||250px
+B8|0||||||||rgb(235, 235, 235)|80px
+C8|Salon / Barber||||||left|||250px
+D8|0||||||||rgb(235, 235, 235)|
+A9|Total Income $||bold|||||||250px
+B9|=B2+B3+B4+B5+B6+B7+B8||bold||||center|rgb(255, 255, 255)|rgb(0, 128, 192)|80px
+C9|Pet Food / Toys / Veterinarian||||||left|||250px
+D9|0||||||||rgb(235, 235, 235)|
+C10|Total Daily Living $||bold|||||||250px
+D10|=D2+D3+D4+D5+D6+D7+D8+D9||bold||||center|rgb(255, 255, 255)|rgb(0, 128, 192)|
+A12|Home Expenses|'Comic Sans MS'||||18px|left|rgb(255, 255, 255)|rgb(0, 128, 192)|250px
+B12|Amount|'Comic Sans MS'|normal|||18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|80px
+C12|Entertainment|'Comic Sans MS'||||18px|left|rgb(255, 255, 255)|rgb(0, 128, 192)|250px
+D12|Amount|'Comic Sans MS'|normal|||18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|
+A13|Mortgage / Rent||||||left|||250px
+B13|756.48||||||||rgb(235, 235, 235)|80px
+C13|Videos / DVDs / NetFlix||||||left|||250px
+D13|8.99||||||||rgb(235, 235, 235)|
+A14|Home / Rental Insurance||||||left|||250px
+B14|0||||||||rgb(235, 235, 235)|80px
+C14|Music / Games||||||left|||250px
+D14|0||||||||rgb(235, 235, 235)|
+A15|Electricity||||||left|||250px
+B15|0||||||||rgb(235, 235, 235)|80px
+C15|Toys / Gadgets||||||left|||250px
+D15|0||||||||rgb(235, 235, 235)|
+A16|Gas / Oil||||||left|||250px
+B16|0||||||||rgb(235, 235, 235)|80px
+C16|Vacation / Travel||||||left|||250px
+D16|0||||||||rgb(235, 235, 235)|
+A17|Water / Sewer / Trash||||||left|||250px
+B17|0||||||||rgb(235, 235, 235)|80px
+C17|Movies / Theater||||||left|||250px
+D17|0||||||||rgb(235, 235, 235)|
+A18|Phone / Mobile / Data||||||left|||250px
+B18|0||||||||rgb(235, 235, 235)|80px
+C18|Concerts / Plays||||||left|||250px
+D18|0||||||||rgb(235, 235, 235)|
+A19|Cable / Satellite||||||left|||250px
+B19|0||||||||rgb(235, 235, 235)|80px
+C19|Books / Newspaper||||||left|||250px
+D19|0||||||||rgb(235, 235, 235)|
+A20|Internet||||||left|||250px
+B20|0||||||||rgb(235, 235, 235)|80px
+C20|Hobbies||||||left|||250px
+D20|0||||||||rgb(235, 235, 235)|
+A21|Furnishings / Appliances||||||left|||250px
+B21|0||||||||rgb(235, 235, 235)|80px
+C21|Film / Photos||||||left|||250px
+D21|0||||||||rgb(235, 235, 235)|
+A22|Maintenance||||||left|||250px
+B22|0||||||||rgb(235, 235, 235)|80px
+C22|Sports / Outdoor Recreation||||||left|||250px
+D22|0||||||||rgb(235, 235, 235)|
+A23|Total Home Expenses $||bold|||||||250px
+B23|=B13+B14+B15+B16+B17+B18+B19+B20+B21+B22||bold||||center|rgb(255, 255, 255)|rgb(0, 128, 192)|80px
+C23|Total Entertainment $||bold|||||||250px
+D23|=D13+D14+D15+D16+D17+D18+D19+D20+D21+D22||bold||||center|rgb(255, 255, 255)|rgb(0, 128, 192)|
+A25|Transportation|'Comic Sans MS'||||18px|left|rgb(255, 255, 255)|rgb(0, 128, 192)|250px
+B25|Amount|'Comic Sans MS'|normal|||18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|80px
+C25|Savings|'Comic Sans MS'||||18px|left|rgb(255, 255, 255)|rgb(0, 128, 192)|250px
+D25|Amount|'Comic Sans MS'|normal|||18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|
+A26|Vehicle Payments||||||left|||250px
+B26|86.33||||||||rgb(235, 235, 235)|80px
+C26|Emergency Fund||||||left|||250px
+D26|50||||||||rgb(235, 235, 235)|
+A27|Auto Insurance||||||left|||250px
+B27|0||||||||rgb(235, 235, 235)|80px
+C27|Transfer to Savings||||||left|||250px
+D27|0||||||||rgb(235, 235, 235)|
+A28|Fuel||||||left|||250px
+B28|0||||||||rgb(235, 235, 235)|80px
+C28|Retirement / Pension Fund||||||left|||250px
+D28|0||||||||rgb(235, 235, 235)|
+A29|Bus / Train / Uber Fare||||||left|||250px
+B29|0||||||||rgb(235, 235, 235)|80px
+C29|Investments||||||left|||250px
+D29|0||||||||rgb(235, 235, 235)|
+A30|Repairs||||||left|||250px
+B30|0||||||||rgb(235, 235, 235)|80px
+C30|Cash stashed away under mattress||||||left|||250px
+D30|125||||||||rgb(235, 235, 235)|
+A31|Registration / Licenses||||||left|||250px
+B31|0||||||||rgb(235, 235, 235)|80px
+C31|Total Savings $||bold|||||||250px
+D31|=D26+D27+D28+D29+D30||bold||||center|rgb(255, 255, 255)|rgb(0, 128, 192)|
+A32|Total Transportation $||bold|||||||250px
+B32|=B26+B27+B28+B29+B30+B31||bold||||center|rgb(255, 255, 255)|rgb(0, 128, 192)|80px
+A34|Health|'Comic Sans MS'||||18px|left|rgb(255, 255, 255)|rgb(0, 128, 192)|250px
+B34|Amount|'Comic Sans MS'|normal|||18px|center|rgb(255, 255, 255)|rgb(0, 128, 192)|80px
+A35|Health Insurance||||||left|||250px
+B35|58.78||||||||rgb(235, 235, 235)|80px
+A36|Doctor / Dentist||||||left|||250px
+B36|0||||||||rgb(235, 235, 235)|80px
+A37|Chronic Medicine / Medicine||||||left|||250px
+B37|0||||||||rgb(235, 235, 235)|80px
+A38|Total Health $||bold|||||||250px
+B38|=B35+B36+B37||bold||||center|rgb(255, 255, 255)|rgb(0, 128, 192)|80px
