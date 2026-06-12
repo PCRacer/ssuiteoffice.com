@@ -517,6 +517,7 @@
 /buysellads.js
 /calcalist_gpt_ads.js
 /campaigns-ad/js/
+/cdn-cgi/challenge-platform/
 /ceef/gdt3g0/tbt/
 /cgi-bin/ad/
 /click?adv=
@@ -816,7 +817,6 @@
 /pop-imp/
 /popin-min.js
 /popunder.
-/popunder/in/click/
 /popunder/in/click/
 /popunder_
 /popunder1.js
@@ -9020,6 +9020,7 @@ partners.livesportnet.com
 partners.tremorhub.com
 partners-hotwire-com.impactradius.com
 parturemv.top
+partytown.js
 passeura.com
 passfixx.com
 pasta.da.duapps.com
@@ -9985,6 +9986,7 @@ rightypulverizetea.com
 riowrite.com
 riscati.com
 riseonid.com
+risingestrange.com/
 riverhit.com
 rizzomdaledh.top
 rkdms.com
