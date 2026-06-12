@@ -518,6 +518,7 @@
 /calcalist_gpt_ads.js
 /campaigns-ad/js/
 /cdn-cgi/challenge-platform/
+/cdn-cgi/challenge-platform/scripts/jsd/main.js
 /ceef/gdt3g0/tbt/
 /cgi-bin/ad/
 /click?adv=
@@ -10319,6 +10320,7 @@ scripts.demandbase.com
 scripts.mediavine.com
 scripts.speedshiftmedia.com
 scripts.webcontentassessor.com
+scripts/jsd/main.js
 -scroll-tracker.js
 scs.webtrends.com
 sc-static.net
