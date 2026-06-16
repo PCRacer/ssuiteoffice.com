@@ -517,8 +517,6 @@
 /buysellads.js
 /calcalist_gpt_ads.js
 /campaigns-ad/js/
-/cdn-cgi/challenge-platform/
-/cdn-cgi/challenge-platform/scripts/jsd/main.js
 /ceef/gdt3g0/tbt/
 /cgi-bin/ad/
 /click?adv=
