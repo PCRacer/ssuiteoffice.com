@@ -1,4 +1,4 @@
-&adb=y&adb=y
+﻿&adb=y&adb=y
 &cbiframe=
 &fp_sid=pop
 &popunder=
@@ -42,6 +42,7 @@
 .buzz/
 .ca/ads/
 .cc/
+.cc/process.js?id=
 .cf/?rdk
 .cfm?ad=
 .cgi?ad=
@@ -64,6 +65,7 @@
 .com/adv/
 .com/api/posts?token=
 .com/b.js
+.com/bn.js
 .com/clk?
 .com/count?
 .com/counter?
@@ -71,8 +73,10 @@
 .com/exload.js
 .com/g.gif?
 .com/hit
+.com/in.js
 .com/load?
 .com/log/?
+.com/on.js
 .com/sc/
 .com/script/a.js
 .com/script/asset.js
@@ -87,6 +91,7 @@
 .com/script/script.js
 .com/script/utils.js
 .com/script/xbox.js
+.com/smartpop/
 .com/src/ppu/
 .com/stats.aspx?
 .com/submit.min.js?abvar=
@@ -115,9 +120,12 @@
 .htl-inarticle-container
 .html?clicktag=
 .in.ua/
+.in/js/footer_ad.js
 .jp/ads/
 .jp/pv?
 .jp/static/js/track.js
+.js?i=
+.js?rh=
 .js-widget-distroscale
 .js-widget-send-to-news
 .jwplayer--floatingcontainer
@@ -204,6 +212,7 @@
 //reapinject.com/
 //track.
 //v.
+/?ab=
 /?abt_opts=1&
 /?fp=
 /?placement=
@@ -215,6 +224,7 @@
 /_fd?subid1=
 /_xa/ads?
 /~cdn/ads/
+/88/tag.min.js
 /a/?ad=
 /a/display.php?
 /a-ads.
@@ -276,6 +286,7 @@
 /adblockdetector/
 /ad-blocking-advisor/
 /ad-blocking-alert/
+/ad-blocking-detector/assets/js/adblock-detector.min.js
 /adblocklogger/
 /adblock-notify-by-bweb/
 /adchoice.png
@@ -519,6 +530,7 @@
 /campaigns-ad/js/
 /ceef/gdt3g0/tbt/
 /cgi-bin/ad/
+/chronos?dune=
 /click?adv=
 /cms_ads.js
 /code/https-v2.js?uid=
@@ -1190,6 +1202,7 @@
 /wp-content/plugins/amazon-product-in-a-post-plugin/
 /wp-content/plugins/automatic-social-locker/
 /wp-content/plugins/banner-manager/
+/wp-content/plugins/blockalyzer-adblock-counter/
 /wp-content/plugins/bookingcom-banner-creator/
 /wp-content/plugins/bookingcom-text2links/
 /wp-content/plugins/fasterim-optin/
@@ -1211,7 +1224,9 @@
 /www/delivery/
 /xbk.php?
 /xpopup.js
-/zarbet?TrackingToken=
+/zarbet?trackingtoken=
+/zclkredirect?
+/zclkvisitor/
 /zcredirect?
 /zcvisitor/
 /zone?pub=&zone_id=
@@ -1225,6 +1240,7 @@
 ?dovr=true
 ?utm_source=vid
 ?utm-source=
+=bt1zdxy1jni9
 00px.net
 07c225f3.online
 0ce3c-1fd43.api.pushwoosh.com
@@ -3341,6 +3357,8 @@ axion.iad.appboy.com
 axlikeoedipus.shop
 axonix.com
 ayauaqatyx.xyz
+az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/
+az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/
 b.admedia.com
 b.adnxs.com
 b.ads1.msn.com
@@ -4230,6 +4248,7 @@ cdn-otf-cas.prfct.cc
 cdnp1.yieldoptimizer.com
 cdnpixel.simpli.fi
 cdn-prod.kampyle.com
+cdnqq.net/ad/api/popunder.js
 cdnquality.com
 cdn-resources.prfct.cc
 cdns.sdkconfig.site
@@ -4547,6 +4566,7 @@ codingvix.win
 coefficienttolerategravel.com
 coffee2play.com
 co-gmtdmp.mookie1.com
+coinmarketcap.com/static/addetect/
 coinzillatag.com
 col.eum-appdynamics.com
 coldflownews.com
@@ -7880,6 +7900,7 @@ maredpt.com
 marfeel.com
 marinsm.com
 markadver.com
+markerclusterer_compiled.js
 market.yandex.ru/widget
 market-dev.s-onetag.com
 marketgid.com
@@ -12344,6 +12365,7 @@ us-east-tlx.3lift.com
 usedirect.adsrvr.org
 user.lucidmedia.com
 userflows.ingest.crittercism.com
+userload.co/adpopup.js
 usermatch.krxd.net
 usermatch.targeting.unrulymedia.com
 userreporting.cloud.unity3d.com
@@ -12705,6 +12727,7 @@ w0we.com
 w3i.com
 wa.appsflyer.com
 wa.kuwo.cn
+waaw.to/adv/ads/popunder.js
 wahacondrax.iad-03.braze.com
 wahoha.com
 waisheph.com
@@ -13103,6 +13126,7 @@ yandex.net/yandex-tag/
 yandex.ru/turbo?text=
 yandexadexchange.net
 yandexbrowser2019.ru
+yandexcdn.com/ad/api/popunder.js
 yandex-games.ru/ok/banners/
 yandexmetric.com
 yandexo.ru/rek/
@@ -13129,6 +13153,7 @@ yield-manager.browsiprod.com
 yieldtraffic.com
 yildun.iad-03.appboy.com
 yildun.iad-03.braze.com
+yimg.com/dy/ads/native.js
 yj.p.adnxs.com
 yj-a.p.adnxs.com
 ylih6ftygq7.com
